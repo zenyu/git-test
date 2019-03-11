@@ -12,5 +12,5 @@ let bagpipe = require('bagpipe');
 request('http://www.baidu.com?keyword=zenofyu masters', function(err, res) {
     if (err) throw err;
     res = res.body;
-    console.log(res);
+    console.log('百度页面爬取 >> ',res);
 });
